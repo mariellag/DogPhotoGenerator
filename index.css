@@ -1,0 +1,35 @@
+/*
+Name: Mariella Gauvreau
+Date: October 31, 2018
+Section: CSE 154 AB
+This is the index.css page for my portfolio of web development work.
+It is used by index.html for my dogs collage website.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+
+body {
+  background-color: white;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36pt;
+}
+
+main {
+  text-align: center;
+  font-size: 26pt;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: black;
+  color: white;
+}
